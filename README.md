@@ -42,17 +42,6 @@ const element = document.getElementById('element-to-print');
 html2pdf().from(element).save('my-pdf.pdf');
 ```
 
-### Browser (UMD)
-
-```html
-<script src="path/to/html2pdf.min.js"></script>
-<script>
-  // Generate PDF from element
-  const element = document.getElementById('element-to-print');
-  html2pdf().from(element).save('my-pdf.pdf');
-</script>
-```
-
 ## Documentation
 
 For detailed API documentation, options, and advanced usage, please refer to the [original html2pdf.js documentation](https://github.com/eKoopmans/html2pdf.js#usage).
